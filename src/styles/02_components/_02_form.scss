@@ -1,0 +1,21 @@
+/****** [Form] ******/
+
+/*
+.form {
+  &__heading {
+  }
+  &__field {
+    & label {
+    }
+    & input {
+    }
+    & textarea {
+    }
+  }
+}
+*/
+form,
+input {
+  border: none;
+  outline: none;
+}
