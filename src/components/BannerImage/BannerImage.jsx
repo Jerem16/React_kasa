@@ -8,7 +8,7 @@ const BannerImage = ({ page }) => {
 
     const homeTexte = "Chez vous, partout et ailleurs";
 
-    if (page === "home") {
+    if (page === "/") {
         image = home_img;
         text = homeTexte;
     } else if (page === "about") {
