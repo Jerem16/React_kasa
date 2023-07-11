@@ -1,10 +1,11 @@
 import BannerImage from "../../components/BannerImage/BannerImage";
+import HomeCardList from "../../components/HomeCardList/HomeCardList";
 
 function Home() {
     return (
-        <div className="test">
-            <BannerImage page="/" />
-            Page d'accueil 🏡
+        <div>
+            <BannerImage page="/" pageName="home" />
+            <HomeCardList />
         </div>
     );
 }

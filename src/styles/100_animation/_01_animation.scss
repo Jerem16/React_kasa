@@ -1,2 +1,18 @@
 /****** [ Animation ] ******/
-/****** [ Accueil N°1 search-location  ] ******/
+@keyframes filterStart {
+    0% {
+        background-color: $color-secondary;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.25);
+    }
+}
+@keyframes textStart {
+    0% {
+        color: $color-secondary;
+    }
+    100% {
+        color: white;
+    }
+}
+

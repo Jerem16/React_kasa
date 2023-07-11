@@ -30,7 +30,7 @@
     bottom: 0;
     left: 0;
 }
-@mixin widht_size {
+@mixin width_size {
     width: 100%;
     max-width: 1440px;
     min-width: 320px;
@@ -40,6 +40,22 @@
     width: 100%;
     height: 202px;
     border-radius: 20px;
+}
+@mixin bannerID {
+    width: 100%;
+    height: 222px;
+    border-radius: 10px;
+}
+@mixin collapseTags {
+    border-radius: 10px;
+    background-color: $color-primary;
+    color: white;
+}
+
+@mixin flexRowSB {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 /*
 @mixin img-ratio {

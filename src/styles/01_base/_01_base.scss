@@ -18,15 +18,15 @@ html {
 }
 
 body {
-    @include widht_size;
     margin: 0 auto;
     padding: 0 150px;
+    overflow-x: hidden;
+    overflow-y: visible;
     box-sizing: border-box;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     color: $color-primary;
-    border: 1px solid #000;
-    background-image: url(../../img/D_Home.svg);
-    background-size: 1440px 1395px;
+    @include width_size;
+    height: auto;
 }
 
 code {
