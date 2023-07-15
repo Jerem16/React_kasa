@@ -2,7 +2,6 @@
     @include width_size;
     @include flexRowSB;
     align-items: center;
-    gap: 45px;
     background-color: $color-secondary;
     margin: 25px 0 230px 0;
     padding: 50px;
@@ -50,4 +49,3 @@
         opacity: 1;
     }
 }
-
