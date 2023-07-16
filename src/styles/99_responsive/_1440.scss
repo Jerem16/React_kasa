@@ -1,16 +1,14 @@
-@media screen and (max-width: 1420px) {
+@media screen and (max-width: 1430px) {
     body {
         padding: 0 100px;
     }
     .home_card-list {
-        gap: 40px;
+        // gap: 40px;
         padding: 50px auto;
         .home_card {
-            width: calc(33% - 33.3px);
+            width: calc(33% - 33.4px);
         }
     }
-}
-@media screen and (max-width: 1300px) {
 }
 
 @media screen and (max-width: 1300px) {

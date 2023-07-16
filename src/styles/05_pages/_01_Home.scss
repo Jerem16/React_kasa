@@ -7,6 +7,7 @@
     padding: 50px;
     box-sizing: border-box;
     border-radius: 20px;
+    row-gap: 50px;
 
     .home_card {
         position: relative;
@@ -41,11 +42,4 @@
     }
 }
 
-@keyframes cardStart {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+

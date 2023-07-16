@@ -27,9 +27,6 @@
 }
 
 @media screen and (max-width: 375px) {
-    html {
-        // background-color: black;
-    }
     body {
         padding: 0 20px;
         background-color: white;
@@ -76,6 +73,7 @@
     }
     /* bannerCard Image sur about */
     #about-bannerImage {
+        max-height: 500px;
         @include bannerID;
         top: -1px;
 
@@ -197,6 +195,10 @@
         }
     }
 
+    .about_collapse-layout {
+        row-gap: 20px;
+        padding: 0;
+    }
     @keyframes footerStart {
         0% {
             opacity: 0;
@@ -230,6 +232,7 @@
             margin: 98px 0 62px 0;
         }
     }
+
     footer {
         position: relative;
         bottom: auto;
@@ -255,9 +258,6 @@
     }
 }
 @media screen and (max-width: 360px) {
-    html {
-        // background-color: black;
-    }
     body {
         padding: 0 10px;
     }
