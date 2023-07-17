@@ -17,7 +17,9 @@
         width: 24px;
         text-align: right;
         font-size: 24px;
-
+        transform-origin: center;
+        transition: transform 0.3s ease-in-out;
+        transform: rotate(-180deg);
         padding: 0;
         margin: 0;
     }
@@ -36,6 +38,11 @@
     margin: 0 0 -15px 0;
     border-radius: 10px;
     background-color: $color-secondary;
+
+    max-height: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all 0.3s ease-in-out;
 
     ul,
     li {
@@ -56,26 +63,12 @@
         padding: 30px 20px 20px 20px;
         margin: 0 0 -15px 0;
     }
-    &.transitioning {
-        transition: height 0.4s ease-in-out, padding 0.4s ease-in-out;
-    }
-}
-.rotate {
-    transform: rotate(180deg);
 }
 
-.open .rotate {
+div.opened {
+    max-height: 1000px;
+    transform: scaleY(1);
+}
+i.closed {
     transform: rotate(0);
-}
-
-@media screen and (max-width: 375px) {
-    .collapse {
-        font-size: 13px;
-        height: 30px;
-        top: -3px;
-        i {
-            font-size: 18px;
-        }
-    }
-
 }
