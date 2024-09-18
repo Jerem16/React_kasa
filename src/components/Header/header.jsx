@@ -19,7 +19,9 @@ function Header() {
 
     return (
         <header className="header">
-            <img src={logo} alt="logo" className="header_logo" />
+            <Link to="/">
+                <img src={logo} alt="logo" className="header_logo" />
+            </Link>
             <nav className="header_nav">
                 <Link to="/" className="nav_link">
                     Accueil

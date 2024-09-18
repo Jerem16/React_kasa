@@ -21,6 +21,25 @@
         opacity: 0;
         background-color: transparent;
     }
+    50% {
+        opacity: 0;
+        background-color: transparent;
+    }
+    100% {
+        opacity: 1;
+        height: 190px;
+        background-color: black;
+    }
+}
+@keyframes footerStartRentals {
+    0% {
+        opacity: 0;
+        background-color: transparent;
+    }
+    50% {
+        opacity: 0;
+        background-color: transparent;
+    }
     100% {
         opacity: 1;
         height: 190px;
@@ -52,13 +71,15 @@
 }
 @keyframes homeAnime {
     0% {
-        z-index: 999;
-        transform: scaleY(0);
+        height: 0;
         opacity: 0;
     }
+    50% {
+        height: 100%;
+        opacity: 0.3;
+    }
     100% {
-        z-index: 0;
-        transform: scaleY(1);
+        height: 100%;
         opacity: 1;
     }
 }

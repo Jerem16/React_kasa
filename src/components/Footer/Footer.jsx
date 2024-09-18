@@ -18,16 +18,33 @@ function Footer() {
             const isFooterVisible =
                 window.innerHeight >= document.body.offsetHeight;
 
-            if (url === "/" && isFooterVisible) {
-                setFooterStyle({
-                    position: "fixed",
-                    bottom: "0",
-                });
-            } else {
-                setFooterStyle({
-                    position: "absolute",
-                });
+            let footerStyle = {
+                position: "absolute",
+            };
+
+            if (isFooterVisible) {
+                switch (url) {
+                    case "/":
+                        break;
+
+                    case "/a_propos":
+                        footerStyle = {
+                            ...footerStyle,
+                            animation: "footerStart 1.75s ease-out forwards",
+                        };
+                        break;
+
+                    default:
+                        footerStyle = {
+                            ...footerStyle,
+                            animation:
+                                "footerStartRentals 1.75s ease-out forwards",
+                        };
+                        break;
+                }
             }
+
+            setFooterStyle(footerStyle);
         };
 
         window.addEventListener("resize", handleResize);

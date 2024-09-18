@@ -1,6 +1,6 @@
 /****** [Footer] ******/
 footer {
-    // position: absolute;
+    position: absolute;
     left: 0;
     width: 100vw;
     height: 0px;
@@ -10,7 +10,7 @@ footer {
     box-sizing: border-box;
     margin-top: 45px;
     opacity: 0;
-    animation: footerStart 0.9s ease-out forwards;
+    animation: footerStart 1.8s ease-out forwards;
 
     .footer {
         @include width_size;
