@@ -3,7 +3,6 @@
 footer {
     position: absolute;
     left: 0;
-
     width: 100vw;
     height: 0px;
     background-color: black;
@@ -13,7 +12,6 @@ footer {
     margin-top: 45px;
     opacity: 0;
     animation: footerStart 1.8s ease-out forwards;
-    border: 5px solid black;
     .footer {
         @include width_size;
         height: 190px;
