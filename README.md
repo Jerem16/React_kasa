@@ -33,6 +33,8 @@ Les maquettes ont été créées sur **Figma** et peuvent être consultées via 
 
 ## Notes et contraintes du projet
 
+![Kasa Coding Guidelines](/public/assets/maquettes/Kasa_coding-guidelines.pdf)
+
 ### Police
 
 -   **Montserrat** : Utilisée pour toute la typographie.  
