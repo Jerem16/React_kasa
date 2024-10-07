@@ -71,7 +71,7 @@ Les maquettes ont été créées sur **Figma** et peuvent être consultées via 
 ### Démo en ligne
 
 Une version démo du projet est disponible ici :  
-[Démo Kasa](https://jerem16.github.io/react_kasa_page/)
+[Démo Kasa](https://master.d1mf0l7jegvee2.amplifyapp.com/)
 
 ### Installer et lancer le projet
 
@@ -90,7 +90,6 @@ Une version démo du projet est disponible ici :
 4.  Lancer l'application :
 
         yarn start
-
 
 L'application sera accessible [ici](http://localhost:3000/) dans votre navigateur.
 
