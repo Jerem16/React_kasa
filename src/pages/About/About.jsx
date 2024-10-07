@@ -6,7 +6,7 @@ import useBodyClass from "../useBodyClass";
 function About() {
     useBodyClass("home");
     return (
-        <div>
+        <main>
             <BannerImage
                 page="about"
                 pageName="about"
@@ -22,7 +22,7 @@ function About() {
                     />
                 ))}
             </div>
-        </div>
+        </main>
     );
 }
 

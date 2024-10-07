@@ -7,6 +7,7 @@ import Carousel from "../../components/Carousel/Carousel";
 import HostCard from "../../components/LodgingHost/LodgingHost";
 import "../../styles/main.scss";
 import useBodyClass from "../useBodyClass";
+
 function Logement() {
     useBodyClass("home");
     const { id } = useParams();
@@ -22,7 +23,7 @@ function Logement() {
     const rating = parseInt(logement.rating, 10);
 
     return (
-        <>
+        <main>
             <Carousel images={logement.pictures} />
             <div className="logement_card-layout">
                 <article className="logement_card">
@@ -56,7 +57,7 @@ function Logement() {
                     }
                 />
             </div>
-        </>
+        </main>
     );
 }
 

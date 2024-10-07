@@ -1,3 +1,101 @@
+# Projet 11 - Développement de l'application web Kasa avec React et React Router
+
+## Contexte du projet
+
+**Kasa**, une plateforme de location d'appartements entre particuliers, a entrepris la refonte de son site pour offrir une expérience utilisateur plus moderne. En tant que développeur front-end freelance, j'ai été chargé de concevoir et de développer l'interface utilisateur de la nouvelle version, en respectant les maquettes Figma fournies.
+
+L'application est construite sur une architecture JavaScript moderne avec **React** pour la création des interfaces, **React Router** pour la gestion de la navigation, et **Sass** pour la gestion du stylage. Les données de test sont extraites d'un fichier JSON, en attendant la mise en place du back-end.
+
+## Mission du projet
+
+-   **Création des composants React** : Développement d'une architecture de composants réutilisables et modulaires basés sur les maquettes Figma.
+-   **Routage avec React Router** : Mise en place d'une navigation fluide entre les différentes pages de l'application.
+-   **Animations et transitions** : Intégration d'animations CSS, notamment pour les menus déroulants et les interactions utilisateurs.
+-   **Stylage avec Sass** : Utilisation de Sass pour améliorer et structurer le code CSS.
+
+## Technologies utilisées
+
+-   **React** : Bibliothèque JavaScript pour créer l'interface utilisateur.
+-   **React Router** : Gestion des routes et navigation entre les pages.
+-   **Sass** : Préprocesseur CSS pour organiser et optimiser le code de style.
+-   **Prettier** : Outil de formatage automatique du code.
+-   **ESLint** : Linter pour détecter et corriger les erreurs de code.
+-   **Figma** : Outil de conception pour consulter les maquettes.
+-   **GitHub** : Gestion du contrôle de version.
+
+## Maquettes à respecter
+
+Les maquettes ont été créées sur **Figma** et peuvent être consultées via ce [lien](<https://www.figma.com/design/qEno0LwL4ZLkWyeY59kxp1/Kasa-FR-(Archived-2)?node-id=3-0&node-type=frame&t=btDSER8ISVFFAP1i-0>).
+
+### Page d'accueil
+
+![Maquette Kasa accueil](/public/assets/maquettes/D_Home.png)
+
+## Notes et contraintes du projet
+
+### Police
+
+-   **Montserrat** : Utilisée pour toute la typographie.  
+    [Lien Google Fonts](https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap).
+
+### Couleurs
+
+-   **Rouge** : `#FF6060`
+-   **Gris** : `#F6F6F6`
+-   **Noir** : `#000000`
+-   **Blanc** : `#FFFFFF`
+
+### Contraintes techniques
+
+-   Composants **modulaires** et **réutilisables**.
+-   Un **composant par fichier** pour une meilleure organisation du code.
+-   Utilisation des **props** pour passer les données entre les composants.
+-   Gestion de l'état local avec les **hooks** de React (`useState`, `useEffect`).
+-   Gestion des événements et **utilisation de la méthode map** pour les listes.
+-   Privilégier les composants **fonctionnels** aux composants de classe.
+-   Gérer les **paramètres des routes** et récupérer les informations de chaque logement via **React Router**.
+-   Créer une page **404** pour les routes inexistantes ou les URLs incorrectes.
+-   Centraliser la logique du **router** dans un seul fichier.
+
+### Approche de conception
+
+-   **Desktop-first** : L'approche de conception privilégie l'affichage sur ordinateur, avec des adaptations pour mobile.
+-   **Maquettes desktop et mobile** fournies. L'affichage tablette est à improviser.
+
+### Validations
+
+-   Aucune erreur ou avertissement dans la console (ESLint/React).
+
+## Tester le projet
+
+### Démo en ligne
+
+Une version démo du projet est disponible ici :  
+[Démo Kasa](https://jerem16.github.io/react_kasa_page/)
+
+### Installer et lancer le projet
+
+1.  Cloner le dépôt GitHub :
+
+        git clone https://github.com/Jerem16/React_kasa
+
+2.  Accéder au répertoire du projet :
+
+        cd React_kasa
+
+3.  Installer les dépendances :
+
+        yarn install
+
+4.  Lancer l'application :
+
+        yarn start
+
+
+L'application sera accessible [ici](http://localhost:3000/) dans votre navigateur.
+
+Accédez au répertoire du projet puis utilisez la commande `yarn install` pour installer les dépendances du projet et `yarn start` pour ouvrir l'application dans votre navigateur.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
