@@ -22,7 +22,7 @@ const Carousel = ({ images }) => {
 
     return (
         <div className="slideshow">
-            {images.length > 1 && (
+            {images.length > 1 && ( //  masque les boutons si une seule image est présente.
                 <button
                     className="slideshow-arrow slideshow-arrow-left"
                     onClick={goToPreviousSlide}

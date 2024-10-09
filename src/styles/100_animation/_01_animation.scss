@@ -10,11 +10,9 @@
 @keyframes textStart {
     0% {
         color: $color-secondary;
-        // opacity: 0.25;
     }
     100% {
         color: white;
-        // opacity: 1;
     }
 }
 
@@ -37,14 +35,14 @@
 @keyframes footerStart1 {
     0% {
         opacity: 1;
-        transform: translateY(100%); /* Commence en dehors de l'écran, en bas */
+        transform: translateY(100%); 
         background-color: black;
-        transform-origin: bottom; /* La transformation commence du bas */
+        transform-origin: bottom; 
     }
     100% {
         opacity: 1;
-        transform: translateY(0); /* Arrive à sa position finale */
-        height: 190px; /* Ajuste la hauteur finale de l'élément */
+        transform: translateY(0); 
+        height: 190px;
         background-color: black;
         transform-origin: bottom;
     }
